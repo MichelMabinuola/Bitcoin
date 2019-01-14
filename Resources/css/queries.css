@@ -1,0 +1,190 @@
+@media screen and (max-width: 1226px) {
+
+    #Layer_1 {
+        width: 600px;
+        height: 400px;
+    }
+    
+
+}
+@media screen and (max-width: 1090px) {
+     .contents--words{
+        font-size: 16px;
+    }
+    .login-box {
+        padding-top: 80px;
+    }
+}
+
+@media screen and (max-width: 1025px) {
+    #Layer_1 {
+        width: 450px;
+        height: 400px;
+    }
+
+    .section {
+        flex-grow: 2;
+
+    }
+
+    .img--accept {
+        flex-grow: 1;
+        width: 40%;
+    }
+
+    #wallet {
+        width: 440px;
+        height: 420px;
+    }
+
+    .article p,
+    .main--h1 {
+        width: 90%;
+    }
+
+    .raise {
+        font-size: 14px;
+    }
+
+    .border--highlight {
+        bottom: 0;
+        
+    }
+
+
+    .support {
+        font-size: 14px;
+    }
+
+    .raise2,
+    .btn {
+        font-size: 14px;
+        height: 50px;
+        width: 100px;
+    }
+
+    .contents--words{
+        font-size: 16px;
+    }
+     .login-box {
+        padding-top: 120px;
+    }
+    .myCenter {
+       
+       
+    }
+
+    .login-box {
+       
+    }
+
+}
+
+/* max width 800px ipad */
+
+@media screen and (max-width: 800px) {
+
+    #wallet {
+        width: 300px;
+        height: 320px;
+    }
+
+    .main--h1 {
+        font-size: 20px;
+    }
+
+    .article p {
+        font-size: 14px;
+    }
+
+    .raise {
+        font-size: 10px;
+    }
+
+  
+     .border--highlight {
+        bottom: 0;
+        background-color: aqua;
+    }
+
+
+    .access {
+        font-size: 28px;
+    }
+
+
+}
+
+/* max width 480px phone */
+@media screen and (max-width: 480px) {
+    .flex--contents {
+        transform: translateY(12%);
+    }
+
+    .flex-grow {
+        flex-grow: 0.1;
+    }
+
+    .coverMyBitcharge {
+        flex-grow: 1;
+    }
+
+    #wallet {
+        width: 200px;
+        height: 200px;
+        margin-top: 120px;
+    }
+
+    #bitcoin--logo {
+        width: 200px;
+    }
+
+    .bitcoin-logo {
+        width: 93%;
+    }
+
+    .float ul img {
+        width: 30px;
+        height: 30px;
+    }
+
+
+    .myCenter {
+        width: 100%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .access {
+        font-size: 18px;
+    }
+
+    .contents--words {
+        font-size: 10px;
+    }
+
+    .raise2 {
+        font-size: 12px;
+        height: 40px;
+        width: 80px;
+    }
+
+    .reg-btn {
+        font-size: 12px;
+    }
+
+    #Layer_1 {
+        width: 300px;
+        height: 400px;
+    }
+   
+    .login-box {
+        width: 100%;
+    }
+  
+
+  
+    
+
+
+}

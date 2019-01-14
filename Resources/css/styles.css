@@ -1,0 +1,611 @@
+/**************************************************
+************************************************
+*****************AUTHOR:MICHAEL_KING**********
+****************DATE:27th/11/2018**********
+@all rights reserved********************/
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body,
+.container-all {
+    font-family: 'Open Sans', sans-serif;
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    color: #000000;
+    position: relative;
+    font-family: 'roboto', sans-serif;
+    overflow: hidden;
+   
+}
+.all--contents{
+    height: auto;
+    
+}
+
+.section-container {
+    height: 710px;
+}
+
+/******************global****************/
+.flip,
+.line,
+.logo--position,
+.bitcoin-big-wrapper,
+.main--section,
+.flex--contents,
+.flex--contents,
+.wallet--svg,
+.text-element,
+.article p,
+.border--highlight,
+.float ul {
+    width: 100%;
+
+}
+
+.logo--position,
+.bitcoin-big-wrapper,
+.main--section,
+.flex--contents,
+.border--highlight {
+    position: absolute;
+    left: 0;
+}
+
+.line {
+    display: none;
+    position: fixed;
+    top: 65px;
+    left: 0;
+    font-size: 10px;
+    background-color: rgba(0, 0 , 0, 0.5);
+    z-index: 3;
+    height: 2px;
+    opacity: 0.2;
+}
+
+.wrapper-all,
+.center-position,
+.center,
+.logo,
+.float {
+    width: 90%;
+    height: 100%;
+
+}
+
+.wrapper-all {
+    margin: 10px auto;
+    width: 90%;
+    padding: 20px;
+    height: 100%;
+    position: relative;
+}
+
+
+/****************************************bitcoin Logo and first seection***********************/
+.center-position,
+.center,
+.logo,
+.float {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.logo--position {
+    top: 0;
+    text-align: left;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+/*****************************************BITCOIN LOGO *************************/
+#bitcoin--logo {
+    width: 300px;
+    height: 100px;
+    display: none;
+}
+
+.bitcoin-logo {
+    width: 95%;
+    height: 10%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 30px;
+    margin: 0 auto;
+    z-index: 2;
+
+}
+
+.flex-grow,
+.coverMyBitcharge {
+    flex-grow: 0.6;
+    position: relative;
+    height: 80px;
+    margin-left: 30px;
+
+}
+
+.myBitcharge {
+    position: absolute;
+    margin: 32px 40px 0 0;
+    top: 0;
+    right: 0;
+    box-sizing: border-box;
+    text-align: right;
+    display: none;
+
+}
+
+.myBitcharge span {
+    text-transform: none;
+    font-weight: 500;
+    font-size: 14px;
+    cursor: pointer;
+    width: 30%;
+    color: #242424;
+
+    -webkit-transition: color 0.5s ease;
+    -mos-transition: color 0.5s ease;
+    transition: color 0.5s ease;
+
+}
+
+.myBitcharge span:hover {
+    color: #a63e4b;
+    transition: color 0.5s ease;
+}
+
+/***********************************************big bitcoin***********************/
+.bitcoin-big-wrapper {
+    height: 500px;
+    top: 90px;
+    margin: 50px auto 0;
+    padding: 20px 10px 10px 20px;
+    box-sizing: border-box;
+    display: none;
+
+}
+
+#bitcon,
+#bitcon-2,
+#bitcon-3,
+#bitcon-4,
+#bitcon-5,
+#bitcon-6,
+#bitcon-7 {
+    opacity: 0;
+    display: none;
+}
+
+
+#Layer_1 {
+    width: 700px;
+    height: 400px;
+    margin: 10px 0 0 20px;
+
+}
+
+/***************************************************third section***********************/
+.section-container {
+    transform: translateY(80px)
+}
+
+.main--section,
+.flex--contents {
+    height: 750px;
+    top: 0;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.flex--contents {
+    height: 500px;
+    top: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/**************************************************Wallet svg***********************/
+.img--accept {
+    width: 50%;
+    height: 98%;
+}
+
+.wallet--svg {
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+#wallet {
+    position: absolute;
+    right: 0;
+    width: 650px;
+    height: 400px;
+    display: none;
+}
+
+#wallet .cls,
+#BIG--brown,
+#outer--and--inner,
+#outer--and--inner-2,
+#opener,
+#path,
+#holder,
+#holder-2,
+#dot--lines,
+#shadow {
+    fill: 'none';
+}
+
+#big--coin,
+#big--coin-2,
+#big--coin-3 {
+    display: none;
+}
+
+/********************** text elements and hover***********************/
+.section {
+    width: 50%;
+    height: 100%;
+    display: none;
+
+}
+
+.text-element {
+    height: 100%;
+    padding: 80px 30px 20px 10px;
+    box-sizing: border-box;
+
+
+}
+
+.article p,
+.main--h1 {
+    font-family: Roboto;
+    line-height: 1.2em;
+    margin-top: 50px;
+
+
+}
+
+.article p {
+    font-size: 18px;
+    margin-top: 40px;
+    margin-bottom: 26px;
+}
+
+.main--h1 {
+    font-size: 40px;
+    width: 90%;
+}
+
+.raise:hover,
+.raise:focus {
+    -webkit-box-shadow: -2px 12px 7px -4px rgba(230, 39, 57, 0.6);
+    -moz-box-shadow: -2px 12px 7px -4px rgba(230, 39, 57, 0.6);
+    box-shadow: -2px 12px 7px -4px rgba(230, 39, 57, 0.6);
+    transform: translateY(-0.25em);
+    transition: all 0.5s ease;
+    color: #e62739;
+    cursor: pointer;
+}
+
+.raise {
+    background: none;
+    border: 2px solid;
+    font-size: 20px;
+    line-height: 1;
+    margin-top: 1.3em;
+    padding: 1em 2em;
+    border-radius: 20px;
+    transition: all 0.5s ease;
+    color: #46a4cc;
+
+
+}
+
+a {
+    text-decoration: none;
+}
+
+.border--highlight {
+    height: 100px;
+    bottom: 22px;
+    display: none;
+}
+
+.border--highlight::before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 1px;
+    top: 0;
+    left: 0;
+    background-color: rgba(0, 0 , 0 , 0.2);
+}
+
+.float ul {
+   list-style: none;
+    display: inline-block;
+    white-space: nowrap; 
+
+}
+
+.float ul li {
+   display: inline-block;
+    margin-top: 10px;
+
+
+}
+
+.image {
+     word-wrap: break-word;
+    white-space: pre-wrap;  
+    white-space:-moz-pre-wrap;
+    font-size: 14px; 
+    color: #000000;
+    transition: all .5s ease;
+    margin-left:40px;
+}
+.image h3{
+    display: block;
+    margin-top: -12px;
+}
+.image:hover{
+    transition: all .5s ease;
+    color: #ea8a0a;
+}
+
+.support{
+    display: block;
+    white-space: pre-line;
+    -moz-white-space:pre-line;
+    position: relative;
+}
+.support h2 {
+    padding-bottom: 40px;
+    font-size: 18px;
+    font-weight: lighter;
+    color: #ea8a0a;
+
+}
+
+.float ul img {
+    width: 40px;
+    height: 40px;
+}
+
+.flip {
+    height: 400px;
+    margin: 0 auto;
+    transform: translateY(30%);
+
+
+}
+
+#spin--coin {
+    width: 400px;
+    height: 400px;
+    display: none;
+    margin: 0 auto;
+
+}
+
+.slide--left,
+.slide--left3 {
+    position: absolute;
+    left: 0;
+    background-color: #46a4cc;
+    top: 0;
+    width: 0;
+    height: 0;
+    z-index: -7;
+    display: block;
+
+}
+
+.slide--left2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 0;
+    height: 0;
+    z-index: -7;
+    display: block;
+    background-color: #fff;
+
+
+}
+
+input {
+    display: inline-block;
+    background: none;
+    border: none;
+    outline: none;
+    color: #ddd;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+}
+
+.login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    -webkit-transform: translate(-50%, -50%); 
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 60%;
+    height: 500px;
+    padding-top: 120px;
+    box-sizing: border-box;
+}
+
+-webkit-::placeholder, -moz-::placeholder {
+    opacity: 1;
+}
+.input-section{
+    margin-bottom: 36px;
+    width: auto; 
+}
+
+.input-area,
+.access {
+    font-size: 18px;
+    margin: 0px 0px 12px;
+    padding: 8px;
+    width: 100%;
+    outline: 0;
+}
+
+.input-area:focus {
+    color: #555;
+}
+
+.btn-one {
+    width: auto;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.btn {
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.question {
+    display: inline-block;
+    color: #555;
+    font-size: 14px;
+}
+
+.reg-btn {
+    color: #46a4cc;
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.reg-btn:hover,
+.reg-btn:active {
+    color: #e62739;
+}
+
+.question-box {
+    text-align: center;
+}
+
+.access {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 200;
+    margin: 10px
+}
+
+.contents--words {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 200;
+    line-height: 1.5em;
+
+}
+
+.myCenter {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    width: 70%;
+}
+
+.raise2,
+.btn {
+    background: #555;
+    color: #ccc;
+    width: 200px;
+    height: 62px;
+    border: 0;
+    font-size: 20px;
+    border-radius: 4px;
+    -webkit-transition: .6s;
+    -mos-transition: .6s;
+    overflow: hidden;
+    position: relative;
+}
+
+.raise2:focus,
+.btn:focus {
+    outline: 0;
+}
+
+.raise2::before,
+.btn:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.5);
+    width: 60px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .5;
+    filter: blur(30px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+
+.raise2::after,
+.btn:before {
+    content: '';
+    display: block;
+    position: absolute;
+    background: rgba(255, 255, 255, 0.2);
+    width: 30px;
+    height: 100%;
+    left: 30px;
+    top: 0;
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100px) skewX(-15deg);
+}
+
+.raise2:hover,
+.btn:hover {
+    background: #a63e4b;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.btn:hover {
+    background: #46a4cc;
+}
+
+.raise2:hover::before,
+.btn:hover::before {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 0.6;
+    transition: .7s;
+}
+
+.raise2:hover::after,
+.btn:hover::after {
+    transform: translateX(300px) skewX(-15deg);
+    opacity: 1;
+    transition: .7s;
+
+}
+
