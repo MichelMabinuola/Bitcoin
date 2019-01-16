@@ -339,9 +339,12 @@
         width: 90%;
         top: 50%;
     }
+    .access {
+        font-size: 20px;
+    }
 
     .login-box {
-        top: 65%;
+        top: 57%;
         padding-top: 10px;
     }
     .image{
