@@ -312,12 +312,19 @@
 }
 
 @media screen and (max-width: 414px) {
+    .main--h1 {
+        margin-top: 120px;
+        font-size: 30px;
+        width: 100%;
+    }
+
     .flex-grow {
         width: 40%;
     }
 
     .support h2 {
-        font-size: 8px;
+        font-size: 12px;
+        margin-top: 10px;
     }
 
     .float ul li {
@@ -325,6 +332,7 @@
         margin-left: 20px;
         font-size: 8px;
         text-align: center;
+         height: 40px;
     }
 
     .myCenter {
@@ -335,6 +343,9 @@
     .login-box {
         top: 65%;
         padding-top: 10px;
+    }
+    .image{
+        height: 100%;
     }
 }
 
@@ -380,9 +391,7 @@
 }
 @media screen and (max-width: 320px){
     .main--h1 {
-        
-        margin-top: 160px;
-        font-size: 20px;
+        margin-top: 180px;
         width: 100%;
     }
      .article p {
@@ -390,9 +399,8 @@
         font-size: 14px;
     }
     .float ul li {
-        width: 30px;
+       
         margin-left: 30px;
-        font-size: 8px;
     }
     
        .contents--words {
