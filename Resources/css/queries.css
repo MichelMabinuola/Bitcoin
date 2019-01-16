@@ -418,3 +418,23 @@
 
 }
 
+@media only screen and (max-width: 320px) and (min-height: 568px){
+     #Layer_1 {
+        width: 70vw;
+    }
+    
+     .float ul li {
+        margin-left: 10px;
+    }
+    .login-box {
+        top: 70%;
+        padding-top: 10px;
+    }
+    
+    .input-area,
+.access {
+    font-size: 14px;
+    
+}
+}
+
