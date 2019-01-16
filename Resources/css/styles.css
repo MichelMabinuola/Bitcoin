@@ -22,13 +22,9 @@ body,
    
 }
 .all--contents{
-    height: auto;
-    
+    height: auto;  
 }
 
-.section-container {
-    height: 710px;
-}
 
 /******************global****************/
 .flip,
@@ -37,10 +33,7 @@ body,
 .bitcoin-big-wrapper,
 .main--section,
 .flex--contents,
-.flex--contents,
 .wallet--svg,
-.text-element,
-.article p,
 .border--highlight,
 .float ul {
     width: 100%;
@@ -49,12 +42,11 @@ body,
 
 .logo--position,
 .bitcoin-big-wrapper,
-.main--section,
-.flex--contents,
 .border--highlight {
     position: absolute;
     left: 0;
 }
+
 
 .line {
     display: none;
@@ -75,7 +67,6 @@ body,
 .float {
     width: 90%;
     height: 100%;
-
 }
 
 .wrapper-all {
@@ -107,17 +98,16 @@ body,
 /*****************************************BITCOIN LOGO *************************/
 #bitcoin--logo {
     width: 300px;
-    height: 100px;
+    height: 80px;
     display: none;
 }
 
 .bitcoin-logo {
-    width: 95%;
+    width:100% ;
     height: 10%;
-    position: fixed;
+    position: absolute;
     top: 0;
     left: 0;
-    padding: 30px;
     margin: 0 auto;
     z-index: 2;
 
@@ -125,16 +115,16 @@ body,
 
 .flex-grow,
 .coverMyBitcharge {
-    flex-grow: 0.6;
     position: relative;
-    height: 80px;
-    margin-left: 30px;
+    width: 50%;
+    height: auto;
+    
 
 }
 
 .myBitcharge {
-    position: absolute;
-    margin: 32px 40px 0 0;
+    height: 40px;
+    width: 100%;
     top: 0;
     right: 0;
     box-sizing: border-box;
@@ -162,15 +152,16 @@ body,
     transition: color 0.5s ease;
 }
 
-/***********************************************big bitcoin***********************/
-.bitcoin-big-wrapper {
-    height: 500px;
-    top: 90px;
-    margin: 50px auto 0;
-    padding: 20px 10px 10px 20px;
+/***********************************************BIG bitcoin***********************/
+.bitcoin-big-wrapper{
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+     height: 500px;
     box-sizing: border-box;
     display: none;
-
 }
 
 #bitcon,
@@ -192,26 +183,33 @@ body,
 
 }
 
-/***************************************************third section***********************/
+/***************************************************MAIN SECTION ALL***********************/
+
 .section-container {
-    transform: translateY(80px)
+    height: 100vh;
 }
 
-.main--section,
-.flex--contents {
-    height: 750px;
-    top: 0;
-    box-sizing: border-box;
-    z-index: 1;
+.main--section{
+    position: relative;
+    width: 100%;
+    height: 100%;
 }
-
+/**************flex--contents bitcoin and wallet*************/
 .flex--contents {
-    height: 500px;
-    top: 0;
-    display: flex;
+    height: 700px;
+    position: absolute;
+     display: flex;
     flex-wrap: wrap;
     justify-content: flex-start;
     align-items: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    z-index: 1;
+ 
 }
 
 /**************************************************Wallet svg***********************/
@@ -257,26 +255,19 @@ body,
 
 .section {
     width: 50%;
-    height: 100%;
+    height: 80%;
     display: none;
-
 }
 
 .text-element {
     height: 100%;
-    padding: 80px 30px 20px 10px;
     box-sizing: border-box;
-
-
 }
 
 .article p,
 .main--h1 {
-    font-family: Roboto;
     line-height: 1.2em;
     margin-top: 50px;
-
-
 }
 
 .article p {
@@ -319,6 +310,7 @@ a {
     text-decoration: none;
 }
 
+/*****************************************DOWNWARD NAVIGATION ***************/
 .border--highlight {
     height: 100px;
     bottom: 22px;
@@ -346,8 +338,6 @@ a {
 .float ul li {
    display: inline-block;
     margin-top: 10px;
-
-
 }
 
 .image {
@@ -390,8 +380,13 @@ a {
 .flip {
     height: 400px;
     margin: 0 auto;
-    transform: translateY(30%);
-
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    
 
 }
 
@@ -400,7 +395,6 @@ a {
     height: 400px;
     display: none;
     margin: 0 auto;
-
 }
 
 .slide--left,
@@ -425,8 +419,6 @@ a {
     z-index: -7;
     display: block;
     background-color: #fff;
-
-
 }
 
 input {

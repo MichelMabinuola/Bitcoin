@@ -1,30 +1,38 @@
+@media screen and (min-width: 1410px) {
+
+    .article p {
+        font-size: 20px;
+
+    }
+
+    .main--h1 {
+        font-size: 46px;
+
+    }
+
+}
+
 @media screen and (max-width: 1226px) {
+    .center-position {
+        padding-left: 30px;
+    }
 
     #Layer_1 {
-        width: 600px;
+        width: 800px;
         height: 400px;
     }
-    
+
 
 }
+
 @media screen and (max-width: 1090px) {
-     .contents--words{
-        font-size: 16px;
-    }
     .login-box {
-        padding-top: 80px;
+        padding-top: 110px;
     }
-}
 
-@media screen and (max-width: 1025px) {
-    #Layer_1 {
-        width: 450px;
-        height: 400px;
-    }
 
     .section {
         flex-grow: 2;
-
     }
 
     .img--accept {
@@ -42,20 +50,6 @@
         width: 90%;
     }
 
-    .raise {
-        font-size: 14px;
-    }
-
-    .border--highlight {
-        bottom: 0;
-        
-    }
-
-
-    .support {
-        font-size: 14px;
-    }
-
     .raise2,
     .btn {
         font-size: 14px;
@@ -63,107 +57,232 @@
         width: 100px;
     }
 
-    .contents--words{
+    .contents--words {
         font-size: 16px;
     }
-     .login-box {
-        padding-top: 120px;
-    }
-    .myCenter {
-       
-       
-    }
 
-    .login-box {
-       
+    .support {
+        font-size: 14px;
     }
-
 }
 
-/* max width 800px ipad */
+@media screen and (max-width: 1025px) {}
 
-@media screen and (max-width: 800px) {
+/* max width 800px ipad */
+@media screen and (max-width: 922px) {
+    #Layer_1 {
+        width: 700px;
+        height: 400px;
+    }
+
+    .center-position {
+        padding-left: 0;
+    }
 
     #wallet {
-        width: 300px;
-        height: 320px;
+        width: 340px;
+        height: 400px;
     }
 
     .main--h1 {
-        font-size: 20px;
+        font-size: 30px;
+    }
+
+    .article p {
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .image {
+        white-space: normal;
+        font-size: 14px;
+        color: #000000;
+        transition: all .5s ease;
+        margin-left: 10px;
+    }
+
+    .image h3 {
+        display: block;
+        margin-top: 2px;
+    }
+
+    .float ul {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .float ul li {
+        width: 20%;
+        display: block;
+        margin-top: 10px;
+    }
+
+    .support {
+        white-space: normal;
+        width: 50%;
+    }
+
+    .support h2 {
+        padding-bottom: 0;
+        font-weight: 16px;
+    }
+
+    .contents--words {
+        font-size: 16px;
+    }
+
+
+
+    .access {
+        font-size: 30px;
+    }
+
+    .myCenter {
+        width: 90%;
+        top: 45%;
+    }
+
+
+}
+
+@media screen and (max-width: 700px) {
+    #Layer_1 {
+        width: 600px;
+    }
+
+    #wallet {
+        width: 300px;
+        height: 300px;
+    }
+
+    .main--h1 {
+        font-size: 26px;
     }
 
     .article p {
         font-size: 14px;
     }
 
+    .article p,
+    .main--h1 {
+        width: 92%;
+    }
+
     .raise {
-        font-size: 10px;
+        width: 120px;
+        font-size: 12px;
     }
 
-  
-     .border--highlight {
-        bottom: 0;
-        background-color: aqua;
+    .float ul li {
+        margin-left: 20px;
+        text-align: left;
     }
 
-
-    .access {
-        font-size: 28px;
+    .login-box {
+        padding-top: 64px;
     }
 
 
 }
 
-/* max width 480px phone */
-@media screen and (max-width: 480px) {
-    .flex--contents {
-        transform: translateY(12%);
+@media screen and (max-width: 600px) {
+    #Layer_1 {
+        width: 80vw;
     }
 
-    .flex-grow {
-        flex-grow: 0.1;
+    .section {
+        width: 50%;
+        height: 100%;
+
     }
 
-    .coverMyBitcharge {
-        flex-grow: 1;
+    .float ul li {
+        margin-left: 20px;
+        text-align: left;
     }
 
+
+
+}
+
+@media screen and (max-width: 546px) {
+    .main--h1 {
+        font-size: 20px;
+    }
+
+    .float ul li {
+        width: 80px;
+    }
+
+    .float ul li:nth-child(1) {
+        margin-left: 0;
+        font-size: 12px;
+    }
+
+    .image {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 518px) {
     #wallet {
-        width: 200px;
-        height: 200px;
-        margin-top: 120px;
+        width: 300px;
+        height: 320px;
     }
 
-    #bitcoin--logo {
-        width: 200px;
+    .article p,
+    .main--h1 {
+        width: 80%;
     }
 
-    .bitcoin-logo {
-        width: 93%;
+    .float ul li {
+        margin-left: 12px;
+        font-size: 8px;
     }
-
-    .float ul img {
-        width: 30px;
-        height: 30px;
-    }
-
 
     .myCenter {
+        width: 90%;
+        top: 41%;
+    }
+}
+
+/* max width 480px phone */
+@media screen and (max-width: 480px) {
+    #wallet {
+        width: 290px;
+        height: 250px;
+    }
+
+    .wallet--svg {
+        display: none;
+        width: 0;
+    }
+
+    .img--accept {
         width: 100%;
-        padding: 20px;
-        box-sizing: border-box;
+
     }
 
-    .access {
-        font-size: 18px;
+    .main--h1 {
+        font-size: 50px;
+        width: 100%;
     }
 
-    .contents--words {
-        font-size: 10px;
+    .article p {
+        width: 100%;
+        font-size: 20px;
     }
 
-    .raise2 {
+    .float ul li {
+        margin-left: 1px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .raise2,
+    .btn {
         font-size: 12px;
         height: 40px;
         width: 80px;
@@ -173,18 +292,118 @@
         font-size: 12px;
     }
 
-    #Layer_1 {
+    #spin--coin {
         width: 300px;
-        height: 400px;
+        height: 300px;
     }
-   
-    .login-box {
-        width: 100%;
-    }
-  
 
-  
-    
+    .myCenter {
+        width: 90%;
+        top: 47%;
+    }
+
+    .contents--words {
+        font-size: 12px;
+    }
+
+
 
 
 }
+
+@media screen and (max-width: 414px) {
+    .flex-grow {
+        width: 40%;
+    }
+
+    .support h2 {
+        font-size: 8px;
+    }
+
+    .float ul li {
+        width: 50px;
+        margin-left: 20px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+    .myCenter {
+        width: 90%;
+        top: 50%;
+    }
+
+    .login-box {
+        top: 65%;
+        padding-top: 10px;
+    }
+}
+
+@media only screen and (max-width: 360px) and (min-height: 640px) {
+    .flex-grow {
+        width: 40%;
+    }
+
+
+    .myCenter {
+        width: 90%;
+        top: 50%;
+    }
+
+    .login-box {
+        top: 75%;
+        padding-top: 10px;
+    }
+
+    .main--h1 {
+        margin-top: 120px;
+        font-size: 30px;
+        width: 100%;
+    }
+
+    .article p {
+        width: 100%;
+        font-size: 20px;
+    }
+
+    .support h2 {
+        font-size: 8px;
+    }
+
+    .float ul li {
+        width: 50px;
+        margin-left: 1px;
+        font-size: 8px;
+        text-align: center;
+    }
+
+
+}
+@media screen and (max-width: 320px){
+    .main--h1 {
+        
+        margin-top: 160px;
+        font-size: 20px;
+        width: 100%;
+    }
+     .article p {
+        width: 100%;
+        font-size: 14px;
+    }
+    .float ul li {
+        width: 30px;
+        margin-left: 30px;
+        font-size: 8px;
+    }
+    
+       .contents--words {
+        font-size: 10px;
+    }
+    
+    #spin--coin{
+         width: 200px;
+        height: 300px;
+    }
+    
+
+}
+
